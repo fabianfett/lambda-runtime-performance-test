@@ -1,0 +1,70 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "async-http-client",
+        "repositoryURL": "https://github.com/swift-server/async-http-client.git",
+        "state": {
+          "branch": "master",
+          "revision": "9cdd1dc38998fc34c0a99f481ad60e0bc43d5888",
+          "version": null
+        }
+      },
+      {
+        "package": "swift-base64-kit",
+        "repositoryURL": "https://github.com/fabianfett/swift-base64-kit.git",
+        "state": {
+          "branch": null,
+          "revision": "3ffa48a7047fc9ac6581cd53ab1df29466d8f13b",
+          "version": "0.2.0"
+        }
+      },
+      {
+        "package": "swift-lambda-runtime",
+        "repositoryURL": "https://github.com/fabianfett/swift-lambda-runtime",
+        "state": {
+          "branch": "connection-pooling",
+          "revision": "684f217a511e9d4a1f64bc0d720ded99be4d6ea2",
+          "version": null
+        }
+      },
+      {
+        "package": "swift-log",
+        "repositoryURL": "https://github.com/apple/swift-log.git",
+        "state": {
+          "branch": null,
+          "revision": "74d7b91ceebc85daf387ebb206003f78813f71aa",
+          "version": "1.2.0"
+        }
+      },
+      {
+        "package": "swift-nio",
+        "repositoryURL": "https://github.com/apple/swift-nio.git",
+        "state": {
+          "branch": null,
+          "revision": "16ab4d657e1ad4e77bd5f8b94af8538561643053",
+          "version": "2.14.0"
+        }
+      },
+      {
+        "package": "swift-nio-extras",
+        "repositoryURL": "https://github.com/apple/swift-nio-extras.git",
+        "state": {
+          "branch": null,
+          "revision": "b4dbfacff47fb8d0f9e0a422d8d37935a9f10570",
+          "version": "1.4.0"
+        }
+      },
+      {
+        "package": "swift-nio-ssl",
+        "repositoryURL": "https://github.com/apple/swift-nio-ssl.git",
+        "state": {
+          "branch": null,
+          "revision": "af46d9b58fafbb76f9b01177568d435a1b024f99",
+          "version": "2.6.2"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
