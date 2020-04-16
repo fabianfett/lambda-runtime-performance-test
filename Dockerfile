@@ -1,4 +1,4 @@
-ARG SWIFT_VERSION=5.1.4
+ARG SWIFT_VERSION=5.2.1
 FROM fabianfett/amazonlinux-swift:$SWIFT_VERSION-amazonlinux2
 
 # needed to do again after FROM due to docker limitation
