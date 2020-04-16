@@ -6,7 +6,7 @@ import PackageDescription
 let package = Package(
   name: "lambda-runtime-performance-test",
   dependencies: [
-    .package(url: "https://github.com/fabianfett/swift-lambda-runtime", .branch("connection-pooling")),
+    .package(url: "https://github.com/fabianfett/swift-lambda-runtime", .upToNextMajor(from: "0.6.0")),
   ],
   targets: [
     .target(
