@@ -3,6 +3,6 @@
 /*.xcodeproj
 xcuserdata
 packaged.yaml
-examples/**/bootstrap
-examples/**/lambda.zip
-examples/**/swift-lambda-layer
+bootstrap
+lambda.zip
+swift-lambda-layer
