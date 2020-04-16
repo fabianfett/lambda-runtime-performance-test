@@ -20,5 +20,5 @@ Resources:
       Handler: "whocares"
       MemorySize: 256
       Layers:
-      - arn:aws:lambda:eu-central-1:426836788079:layer:Swift:9
+      - arn:aws:lambda:eu-central-1:426836788079:layer:Swift:12
 
