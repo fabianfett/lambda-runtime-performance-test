@@ -21,7 +21,7 @@
       },
       {
         "package": "swift-lambda-runtime",
-        "repositoryURL": "https://github.com/fabianfett/swift-lambda-runtime",
+        "repositoryURL": "https://github.com/fabianfett/swift-lambda-runtime.git",
         "state": {
           "branch": null,
           "revision": "def35b2e37c14ee403d248fb612ccc761a14e50a",

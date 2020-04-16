@@ -1,12 +1,13 @@
 import LambdaRuntime
 import NIO
 
-let group = MultiThreadedEventLoopGroup(numberOfThreads: 1)
+let group = MultiThreadedEventLoopGroup(numberOfThreads: System.coreCount)
 defer { try! group.syncShutdownGracefully() }
 
 do {
   let allocator = ByteBufferAllocator()
   let string = "Hello World"
+  
   let runtime = try Runtime.createRuntime(eventLoopGroup: group) { (_, ctx) in
     var buffer = allocator.buffer(capacity: string.utf8.count)
     buffer.writeString(string)
